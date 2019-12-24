@@ -1,4 +1,5 @@
 # Robust Two-exposure Image Fusion
+Implementation for robust two-exposure image fusion via reinforcement learning, CVPR 2020 (under review).
 
 ## Introduction
 In this repository, we provide
