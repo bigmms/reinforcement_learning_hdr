@@ -1,4 +1,15 @@
-# reinforcement_learning_hdr
+# Robust Two-exposure Image Fusion
+
+## Introduction
+In this repository, we provide
+* Our model architecture description (EDSR, MDSR)
+* NTIRE2017 Super-resolution Challenge Results
+* Demo & Training code
+* Trained models (EDSR, MDSR) 
+* Datasets we used (DIV2K, Flickr2K)
+* Super-resolution examples
+
+The code is based on Facebook's Torch implementation of ResNet ([facebook/fb.resnet.torch](https://github.com/facebook/fb.resnet.torch)). <br>
 
 ### Test models
 1. Clone this github repo. 
