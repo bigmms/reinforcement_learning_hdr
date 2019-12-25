@@ -8,8 +8,6 @@ In this repository, we provide
 * Trained models
 * Fusion examples
 
-The code is based on Facebook's Torch implementation of ResNet ([facebook/fb.resnet.torch](https://github.com/facebook/fb.resnet.torch)). <br>
-
 
 ## Test models
 1. Clone this github repo. 
@@ -17,9 +15,9 @@ The code is based on Facebook's Torch implementation of ResNet ([facebook/fb.res
 git clone https://github.com/bigmms/reinforcement_learning_hdr
 cd reinforcement_learning_hdr
 ```
-2. Place your own **low-resolution images** in `./test/Images` folder. (There are two sample images - baboon and comic).
-3. Download pretrained models from [Google Drive](https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecY) or [Baidu Drive](https://pan.baidu.com/s/1-Lh6ma-wXzfH8NqeBtPaFQ). Place the models in `./models`. We provide two models with high perceptual quality and high PSNR performance (see [model list](https://github.com/xinntao/ESRGAN/tree/master/models)).
-4. Run test. We provide ESRGAN model and RRDB_PSNR model and you can config in the `test.py`.
+2. Place your own **LDR images** in `./test/Images` folder. (There are several sample images there).
+3. Download pretrained models from [Google Drive](https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecY) or [Baidu Drive](https://pan.baidu.com/s/1-Lh6ma-wXzfH8NqeBtPaFQ). Place the models in `./checkpoints`. 
+4. Run test. We provide the trained model and you can config in the `agent_test.py`.
 ```
 python agent_test.py
 ```
