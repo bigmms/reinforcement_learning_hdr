@@ -9,7 +9,6 @@ In this repository, we provide
 * Fusion examples
 
 ## Architecture
-
 ![](./test/Images/framework1.pdf)
 
 ## Test models
