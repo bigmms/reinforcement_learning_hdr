@@ -18,8 +18,9 @@ git clone https://github.com/bigmms/reinforcement_learning_hdr
 cd reinforcement_learning_hdr
 ```
 2. Place your own **low-resolution images** in `./test/Images` folder. (There are two sample images - baboon and comic).
-3. Run test. We provide ESRGAN model and RRDB_PSNR model and you can config in the `test.py`.
+3. Download pretrained models from Google Drive or Baidu Drive. Place the models in ./models. We provide two models with high perceptual quality and high PSNR performance (see model list).
+4. Run test. We provide ESRGAN model and RRDB_PSNR model and you can config in the `test.py`.
 ```
 python agent_test.py
 ```
-4. The results are in `./test/test_run/results` folder.
+5. The results are in `./test/test_run/results` folder.
