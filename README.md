@@ -10,7 +10,7 @@ In this repository, we provide
 
 ## Architecture
 
-![image](https://github.com/bigmms/reinforcement_learning_hdr/blob/master/test/Images/framework1.pdf)
+![](./test/Images/framework1.pdf)
 
 ## Test models
 1. Clone this github repo. 
