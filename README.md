@@ -15,9 +15,9 @@ In this repository, we provide
 Please refer to our paper for details.
 
 ## Dependencies
-* Torch7
-* cuDNN
-* nccl (Optional, for faster GPU communication)
+* Python 3
+* [Tensorflow >= 1.14.0](https://www.tensorflow.org/) (CUDA version >= 10.0 if installing with CUDA. [More details](https://www.tensorflow.org/install/gpu/))
+* Python packages:  `pip install -r requirement.txt`
 
 Our code is tested under Ubuntu 14.04 and 16.04 environment with Titan X GPUs (12GB VRAM).
 
