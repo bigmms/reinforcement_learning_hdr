@@ -1,5 +1,5 @@
 # Robust Two-exposure Image Fusion
-Implementation for robust two-exposure image fusion via reinforcement learning, CVPR 2020 (under review).
+Implementation for robust two-exposure image fusion, CVPR 2020 (under review).
 
 ## Introduction
 In this repository, we provide
@@ -12,7 +12,12 @@ In this repository, we provide
 
 The code is based on Facebook's Torch implementation of ResNet ([facebook/fb.resnet.torch](https://github.com/facebook/fb.resnet.torch)). <br>
 
-### Test models
+## Model Architecture
+**EDSR** (Single-scale model. We provide scale x2, x3, x4 models).
+
+![EDSR](/figs/EDSR.png)
+
+## Test models
 1. Clone this github repo. 
 ```
 git clone https://github.com/bigmms/reinforcement_learning_hdr
