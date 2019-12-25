@@ -17,9 +17,8 @@ cd reinforcement_learning_hdr
 ```
 2. Place your own **LDR images** in `./test/Images` folder. (There are several sample images there).
 3. Download pretrained models from [Google Drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing). Place the trained model in `./checkpoints`. 
-4. Download pretrained vgg16.npy from [Google Drive](https://drive.google.com/drive/folders/1sZm02iXsO6hYowMHodLiBEOl2xWWiRYI?usp=sharing). Place the trained model in the root directory. 
-5. Run test. We provide the trained model and you can config in the `agent_test.py`.
+4. Run test. We provide the trained model and you can config in the `agent_test.py`.
 ```
 python agent_test.py
 ```
-6. The results are in `./test/test_run/results` folder.
+5. The results are in `./test/test_run/results` folder.
