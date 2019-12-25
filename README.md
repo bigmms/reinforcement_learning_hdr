@@ -10,7 +10,7 @@ In this repository, we provide
 
 ## Architecture
 
-![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
+![image](https://github.com/bigmms/reinforcement_learning_hdr/blob/master/test/Images/framework1.pdf)
 
 ## Test models
 1. Clone this github repo. 
