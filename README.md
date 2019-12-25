@@ -12,10 +12,6 @@ In this repository, we provide
 
 The code is based on Facebook's Torch implementation of ResNet ([facebook/fb.resnet.torch](https://github.com/facebook/fb.resnet.torch)). <br>
 
-## Model Architecture
-**EDSR** (Single-scale model. We provide scale x2, x3, x4 models).
-
-![EDSR](/figs/EDSR.png)
 
 ## Test models
 1. Clone this github repo. 
