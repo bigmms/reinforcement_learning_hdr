@@ -8,6 +8,9 @@ In this repository, we provide
 * Trained models
 * Fusion examples
 
+## Architecture
+
+![image](http://github.com/itmyhome2013/readme_add_pic/raw/master/images/nongshalie.jpg)
 
 ## Test models
 1. Clone this github repo. 
