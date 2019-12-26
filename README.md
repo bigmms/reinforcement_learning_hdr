@@ -58,18 +58,6 @@ python agent_test.py
 
 5. The results are in `./test/test_run/results` folder.
 
-## Dataset
-If you want to train or evaluate our models with DIV2K or Flickr2K dataset, please download the dataset from [here](https://cv.snu.ac.kr/research/EDSR/DIV2K.tar).
-Place the tar file to the location you want. **(We recommend /var/tmp/dataset/)**  <U>If the dataset is located otherwise, **you have to change the optional argument -dataset for training and test.**</U>
+## Results
 
-* [**DIV2K**](http://www.vision.ee.ethz.ch/~timofter/publications/Agustsson-CVPRW-2017.pdf) from [**NTIRE2017**](http://www.vision.ee.ethz.ch/ntire17/)
-    ```bash
-    makeData = /var/tmp/dataset/ # We recommend this path, but you can freely change it.
-    mkdir -p $makeData/; cd $makedata/
-    tar -xvf DIV2K.tar
-    ```
-    You should have the following directory structure:
-
-    `/var/tmp/dataset/DIV2K/DIV2K_train_HR/0???.png`<br>
-    `/var/tmp/dataset/DIV2K/DIV2K_train_LR_bicubic/X?/0???.png`<br>
-    `/var/tmp/dataset/DIV2K/DIV2K_train_LR_unknown/X?/0???.png`<br>
+![](./framework1.png)
