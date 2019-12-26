@@ -43,7 +43,7 @@ python agent_test.py
 
     # Test model
     python agent_test.py --model_path ./checkpoints/test_run.ckpt-700 --data_dir ./test/Images/
-
+```
     
 
 5. The results are in `./test/test_run/results` folder.
