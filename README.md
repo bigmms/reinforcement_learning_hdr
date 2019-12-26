@@ -34,26 +34,16 @@ cd reinforcement_learning_hdr
 python agent_test.py
 ```
 
-   **You can run different models and scales by changing input arguments.**
+   **You can run different models and testing datasets by changing input arguments.**
 ```
-    # To run for scale 2, 3, or 4, set -scale as 2, 3, or 4
-    # To run EDSR+ and MDSR+, you need to set -selfEnsemble as true
+    # To run with differenr models, set -model_path as your model path.
+    # To run for different testing dataset, you need to set -data_dir as your data path.
 
-    cd $makeReposit/NTIRE2017/demo
+    cd $makeReposit/reinforcement_learning_hdr
 
-    # Test EDSR (scale 2)
-    th test.lua -model EDSR_x2 -selfEnsemble false
+    # Test model
+    python agent_test.py --model_path ./checkpoints/test_run.ckpt-700 --data_dir ./test/Images/
 
-    # Test EDSR+ (scale 2)
-    th test.lua -model EDSR_x2 -selfEnsemble true
-
-    # Test MDSR (scale 2)
-    th test.lua -model MDSR -scale 2 -selfEnsemble false
-
-    # Test MDSR+ (scale 2)
-    th test.lua -model MDSR -scale 2 -selfEnsemble true
-```
-(Note: To run the **MDSR**, model name should include `multiscale` or `MDSR`. e.g. `multiscale_blahblahblah.t7`)
     
 
 5. The results are in `./test/test_run/results` folder.
