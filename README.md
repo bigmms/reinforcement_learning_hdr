@@ -29,7 +29,7 @@ cd reinforcement_learning_hdr
 ```
 2. Place your own **LDR images** in `./test/Images` folder. (There are several sample images there).
 3. Download pretrained models from [Google Drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing). Place the trained model in `./checkpoints`. 
-4. Run test. We provide the trained model and you can config in the `agent_test.py`. You can run different models and testing datasets by changing input arguments.**
+4. Run test. We provide the trained model and you can config in the `agent_test.py`. You can run different models and testing datasets by changing input arguments.
 ```
 # To run with different models, set -model_path as your model path.
 # To run for different testing dataset, you need to set -data_dir as your data path.
