@@ -17,7 +17,7 @@ Please refer to our paper for details.
 ## Dependencies
 * Python 3
 * [Tensorflow >= 1.14.0](https://www.tensorflow.org/) (CUDA version >= 10.0 if installing with CUDA. [More details](https://www.tensorflow.org/install/gpu/))
-* Python packages:  `pip install -r requirement.txt`
+* Python packages:  `pip install -r requirements.txt`
 
 Our code is tested under Windows 10 environment with GeForce GTX 1060 GPU (6GB VRAM). Might work under others, but didn't get to test any other OSs just yet.
 
