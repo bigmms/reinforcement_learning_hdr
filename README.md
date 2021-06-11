@@ -1,9 +1,19 @@
 # Robust Two-exposure Image Fusion
+
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+![](https://img.shields.io/badge/Tensorflow-1.14.0-yellow)
+![](https://img.shields.io/badge/Cuda-10.0-blue)
 ![](./demo/framework1.png)
 
-**Paper**: Robust Two-exposure Image Fusion 
+## Introduction
+XXXXXXXX
+
+XXXXXXXX
 
 **Authors**: Bo-Hao Chen, Jia-Li Yin
+
+**Paper**: Robust Two-exposure Image Fusion
 
 Implementation for robust two-exposure image fusion, CVPR 2020 (under review).
 
@@ -41,3 +51,17 @@ python agent_test.py --model_path ./checkpoints/test_run.ckpt-700 --data_dir ./t
 ## Results
 
 ![](./demo/results_2.png)
+
+## License + Attribution
+This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9357944):
+```
+@ARTICLE{ChenTITS2021,
+  author={B. -H. {Chen} and S. {Ye} and J. -L. {Yin} and H. -Y. {Cheng} and D. {Chen}},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={Deep Trident Decomposition Network for Single License Plate Image Glare Removal}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-12},
+  doi={10.1109/TITS.2021.3058530}}
+```
