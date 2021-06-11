@@ -31,7 +31,7 @@ XXXXXXXX
 You can install the required libraries by the command `pip install -r requirements.txt`.
 
 ### Model
-* Pre-trained models can be downloaded from [google drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing).
+* Pre-trained models can be downloaded from [google drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing) or [baidu drive](https://pan.baidu.com/s/1nLrWmgkYNffSJHB1Fsr0Gw) (password: 2wrw).
 
 ### It was tested and runs under the following OSs:
 * Windows 10 with GeForce GTX 1060 GPU
