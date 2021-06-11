@@ -32,13 +32,15 @@ You can install the required libraries by the command `pip install -r requiremen
 
 ### Model
 * Pre-trained models can be downloaded from [google drive](https://drive.google.com/drive/folders/1iqkGTl8sqoVEaVFo4uoAJiLFtce_f8cu?usp=sharing).
+
 ### It was tested and runs under the following OSs:
-* Windows 10 with GeForce GTX 1060 GPU (6GB VRAM)
+* Windows 10 with GeForce GTX 1060 GPU
+* Ubuntu 16.04 with NVIDIA GTX 1080 Ti GPU
 
 Might work under others, but didn't get to test any other OSs just yet.
 
 ## Getting Started:
-### usage
+### Usage
 ```
 python agent_test.py --model_path /your/checkpoints/path --data_dir /your/LDR/images/path --output_dir /results/to/save
 ```
