@@ -1,4 +1,4 @@
-# Automatic Intermediate Generation with Deep Reinforcement Learning for Robust Two-exposure Image Fusion
+# Automatic Intermediate Generation With Deep Reinforcement Learning for Robust Two-Exposure Image Fusion
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbigmms%2Freinforcement_learning_hdr&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
@@ -8,13 +8,11 @@
 ![](./demo/framework1.png)
 
 ## Introduction
-XXXXXXXX
-
-XXXXXXXX
+Fusing low dynamic range (LDR) for high dynamic range (HDR) images has gained a lot of attention, especially to achieve real-world application significance when the hardware resources are limited to capture images with different exposure times. However, existing HDR image generation by picking the best parts from each LDR image often yields unsatisfactory results due to either the lack of input images or well-exposed contents. To overcome this limitation, we model the HDR image generation process in two-exposure fusion as a deep reinforcement learning problem and learn an online compensating representation to fuse with LDR inputs for HDR image generation. Moreover, we build a two-exposure dataset with reference HDR images from a public multiexposure dataset that has not yet been normalized to train and evaluate the proposed model. By assessing the built dataset, we show that our reinforcement HDR image generation significantly outperforms other competing methods under different challenging scenarios, even with limited well-exposed contents. More experimental results on a no-reference multiexposure image dataset demonstrate the generality and effectiveness of the proposed model. To the best of our knowledge, this is the first work to use a reinforcement-learning-based framework for an online compensating representation in two-exposure image fusion.
 
 **Authors**: Jia-Li Yin, Bo-Hao Chen, Yan-Tsung Peng, and Hau Hwang
 
-**Paper**: Automatic Intermediate Generation with Deep Reinforcement Learning for Robust Two-exposure Image Fusion
+**Paper**: [PDF](https://ieeexplore.ieee.org/document/9466369)
 
 
 ## Requirements
@@ -55,15 +53,15 @@ python agent_test.py --model_path ./checkpoints/test_run.ckpt-700 --data_dir ./t
 ![](./demo/results_2.png)
 
 ## License + Attribution
-This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9357944):
+This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9466369):
 ```
-@ARTICLE{ChenTITS2021,
-  author={B. -H. {Chen} and S. {Ye} and J. -L. {Yin} and H. -Y. {Cheng} and D. {Chen}},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={Deep Trident Decomposition Network for Single License Plate Image Glare Removal}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-12},
-  doi={10.1109/TITS.2021.3058530}}
+@ARTICLE{YinTNNLS21,  
+author={Yin, Jia-Li and Chen, Bo-Hao and Peng, Yan-Tsung and Hwang, Hau},  
+journal={IEEE Transactions on Neural Networks and Learning Systems},   
+title={Automatic Intermediate Generation With Deep Reinforcement Learning for Robust Two-Exposure Image Fusion},   
+year={2021},  
+volume={},  
+number={},  
+pages={1-10},  
+doi={10.1109/TNNLS.2021.3088907}}
 ```
