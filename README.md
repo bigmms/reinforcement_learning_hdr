@@ -55,13 +55,12 @@ python agent_test.py --model_path ./checkpoints/test_run.ckpt-700 --data_dir ./t
 ## License + Attribution
 This code is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Commercial usage is not permitted. If you use this code in a scientific publication, please cite the following [paper](https://ieeexplore.ieee.org/document/9466369):
 ```
-@ARTICLE{YinTNNLS21,  
+@ARTICLE{YinTNNLS21,
 author={Yin, Jia-Li and Chen, Bo-Hao and Peng, Yan-Tsung and Hwang, Hau},  
-journal={IEEE Transactions on Neural Networks and Learning Systems},   
+journal={IEEE Transactions on Neural Networks and Learning Systems},  
 title={Automatic Intermediate Generation With Deep Reinforcement Learning for Robust Two-Exposure Image Fusion},   
-year={2021},  
-volume={},  
-number={},  
-pages={1-10},  
-doi={10.1109/TNNLS.2021.3088907}}
+year={2022}, 
+volume={33}, 
+number={12},
+pages={7853-7862}}
 ```
